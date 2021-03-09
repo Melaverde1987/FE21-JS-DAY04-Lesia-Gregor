@@ -11,10 +11,32 @@
 
 <body>
     <div class="container">
-        <input type="text" id="name" placeholder="Type your name">
-        <input type="text" id="lastname" placeholder="Type your lastname">
-        <input type="text" id="age" placeholder="Type your age">
-        <input type="submit" id="btn">
+        <div class="box">
+            <label for="name">Your name</label>
+            <input type="text" id="name" placeholder="Type your name">
+        </div>
+
+        <div class="box">
+            <label for="lastname">Your lastname</label>
+            <input type="text" id="lastname" placeholder="Type your lastname">
+        </div>
+
+        <div class="box">
+            <label for="age">Your age</label>
+            <input type="text" id="age" placeholder="Type your age">
+        </div>
+
+        <div>
+            <select name="profession" id="profession">
+                <option value="it">IT</option>
+                <option value="hospitality">Hospitality</option>
+                <option value="tourismus">Tourismus</option>
+            </select>
+        </div>
+
+        <div class="box">
+            <input type="submit" id="submit">
+        </div>
         <p id="result"></p>
     </div>
     

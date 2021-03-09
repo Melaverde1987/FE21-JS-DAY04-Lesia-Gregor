@@ -14,17 +14,6 @@ a {
     max-width: 90%;
 }
 
-
-#menu {
-   width: 300px;
-   background-color: gray;
-   height: 100%;
-}
-
-    #menu-btn {
-        color: black;
-    }
-
 li a {
    text-decoration: none;
 }
@@ -32,4 +21,22 @@ li a {
 label {
     float: left;
     width: 100%;
+}
+
+input[type=text] {
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+  border-color: blue !important;
+}
+
+.box {
+    margin: 10px 0;
+}
+
+#result {
+    border: 1px solid;
+    display: none;
 }
