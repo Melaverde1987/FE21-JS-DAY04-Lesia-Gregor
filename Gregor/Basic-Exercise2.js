@@ -4,6 +4,7 @@ function extract() {
   var fname = document.getElementById("firstname").value;
   var lname = document.getElementById("lastname").value;
   var userAge = document.getElementById("age").value;
+  var prof = document.getElementById("profession").value;
 
   document.getElementById("output").innerHTML =
     "Name:<br>" + fname + "<br>" + lname + "<br>Age: " + userAge;
@@ -15,4 +16,10 @@ function extract() {
   } else {
     document.getElementById("output").style.color = "red";
   }
+
+  if {
+    document.getElementById("profession")
+  }
+
+  console.log(profession.value);
 }
