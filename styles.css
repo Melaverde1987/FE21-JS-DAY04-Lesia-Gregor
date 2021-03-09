@@ -9,6 +9,15 @@ a {
     color: #fff;
 }
 
+img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    float: left;
+    height: 100%;
+    object-fit: contain;
+}
+
 .container {
     margin: 0 auto;
     max-width: 90%;
@@ -39,4 +48,14 @@ input[type=text]:focus {
 #result {
     border: 1px solid;
     display: none;
+}
+
+.imagebox {
+    float: left;
+    width: 20%;
+    height: 20rem;
+}
+.submitbox {
+    float: left;
+    width: 100%;
 }
