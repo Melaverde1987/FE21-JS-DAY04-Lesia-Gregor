@@ -59,3 +59,10 @@ input[type=text]:focus {
     float: left;
     width: 100%;
 }
+
+.colorbox {
+    float: left;
+    width: 10rem;
+    height: 10rem;
+    background-color: blue;
+}
